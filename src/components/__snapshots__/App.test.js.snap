@@ -2,6 +2,18 @@
 
 exports[`App Test renders App 1`] = `
 <BrowserRouter>
-  <Route />
+  <Header />
+  <Route
+    component={[Function]}
+    path="/red"
+  />
+  <Route
+    component={[Function]}
+    path="/blue"
+  />
+  <Route
+    component={[Function]}
+    path="/yellow"
+  />
 </BrowserRouter>
 `;
